@@ -46,7 +46,7 @@ function createLogo() {
 				answers.userShapeColor
 			);
 			const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
-      ${currentShape.getSvgCode()}
+      ${currentShape.render()}
       <text x="150" y="100" text-anchor="middle" alignment-baseline="middle" font-size="30" fill="${
 			answers.userLetterColor
 		}">${answers.userThreeLetters}</text>
